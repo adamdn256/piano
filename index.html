@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Keyboard Piano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>My Keyboard Piano</h1>
+    <p>Press A S D F G H J K to play</p>
+
+    <div class="piano" aria-label="Keyboard piano">
+      <div class="key" data-key="a" data-note="Do"><span>C</span><kbd>A</kbd></div>
+      <div class="key" data-key="s" data-note="Re"><span>D</span><kbd>S</kbd></div>
+      <div class="key" data-key="d" data-note="Mi"><span>E</span><kbd>D</kbd></div>
+      <div class="key" data-key="f" data-note="Fa"><span>F</span><kbd>F</kbd></div>
+      <div class="key" data-key="g" data-note="Sol"><span>G</span><kbd>G</kbd></div>
+      <div class="key" data-key="h" data-note="La"><span>A</span><kbd>H</kbd></div>
+      <div class="key" data-key="j" data-note="Ti"><span>B</span><kbd>J</kbd></div>
+      <div class="key" data-key="k" data-note="Do"><span>C</span><kbd>K</kbd></div>
+    </div>
+
+    <div id="last-note">Last note: —</div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
